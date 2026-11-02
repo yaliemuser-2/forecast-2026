@@ -28,7 +28,7 @@ window.SITE_CONFIG = {
     "My forecast estimates the Democratic two-party vote share in each 2026 House and Senate race using historical election results, partisan voting index (PVI), the national political environment, incumbency, and campaign spending. I use separate statistical models for House and Senate races.",
     "For the national environment, I use an estimated Democratic two-party vote share of 48.683%. Campaign spending is measured using each party's share of reported disbursements. Because 2026 spending reports are incomplete, those estimates have limitations.",
     "To account for uncertainty, I estimate each party's probability of winning individual races and simulate 10,000 elections. The simulations incorporate national and race-specific uncertainty to estimate possible seat totals and the probability of controlling each chamber.",
-    "
+    
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
