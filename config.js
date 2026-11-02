@@ -9,10 +9,10 @@ window.SITE_CONFIG = {
   // The name shown at the top of your site. A nickname or made-up forecaster
   // name is fine and recommended. Do not put your real name, email, photo,
   // or anything else that identifies you on this site.
-  forecaster_name: "",
+  forecaster_name: "2026 Congressional Election Forecast",
 
   // One short line under the name (optional).
-  tagline: "",
+  tagline: "Forecasting the U.S. House and Senate using election fundamentals",
 
   // A plain-language description of YOUR model, in your own words. Each line in
   // quotes is one paragraph, followed by a comma. Two or three short paragraphs:
@@ -25,8 +25,10 @@ window.SITE_CONFIG = {
   //   "A fundamentals-only model (no polls). Each race's predicted Democratic share combines the district's partisan lean, incumbency, and a forecast of the national House vote from presidential approval, gas prices, income and the midterm penalty.",
   //   "Uncertainty combines one national error shared by every race with a separate error for each race. Seat totals come from 10,000 simulated elections.",
   method: [
-    "",
-    ""
+    "My forecast estimates the Democratic two-party vote share in each 2026 House and Senate race using historical election results, partisan voting index (PVI), the national political environment, incumbency, and campaign spending. I use separate statistical models for House and Senate races.",
+    "For the national environment, I use an estimated Democratic two-party vote share of 48.683%. Campaign spending is measured using each party's share of reported disbursements. Because 2026 spending reports are incomplete, those estimates have limitations.",
+    "To account for uncertainty, I estimate each party's probability of winning individual races and simulate 10,000 elections. The simulations incorporate national and race-specific uncertainty to estimate possible seat totals and the probability of controlling each chamber.",
+    "
   ],
 
   // Your data files. Leave these alone unless you renamed your files.
